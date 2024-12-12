@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+* {
+    font-family: "Parkinsans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2c2da3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: #242582;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 1vw;
+    gap: 1vw;
+}
+
+h2 {
+    color: #fff;
+}
+
+.messages-place {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    color: #fff;
+}
+
+.send-msg-block {
+    display: flex;
+    gap: 1vw;
+}
+
+input {
+    outline: none;
+    width: 20vw;
+}
+
+.send {
+    background: transparent;
+    border: none;
+}
+
+.send:hover {
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.our-msg {
+    margin-left: 20vw;
+}
+
+.bot-msg {
+    margin-right: 20vw;
+}
